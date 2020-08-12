@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+pygments = "*"
+django-bootstrap-modal-forms = "*"
+pylint-django = "*"
+request = "*"
+requests = "*"
+selenium = "*"
+
+[requires]
+python_version = "3.7"
